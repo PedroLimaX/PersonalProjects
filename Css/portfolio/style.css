@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300,400,500,600,700&display=swap');
+/**{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}*/
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #010101;
+  background-image: url('background.jpg');
+  background-size: cover;
+  /*background: radial-gradient(circle, rgba(0,0,80,1) 5%, rgba(0,0,10,1) 45%);*/
+  color: #FEFEFE;
+  padding: auto;
+}
+.hair{
+  margin: auto;
+  width: 530px;
+  height: 400px;
+  background: transparent;
+  position:absolute;
+  top: 90px;
+  display:flex;
+  opacity: 1;
+  overflow: hidden;
+  align-items: center;
+  border: 1px solid green;
+  }
+
+  .hair-left1{
+    margin: auto;
+    width: 53px;
+    height: 175px;
+    position: absolute;
+    top: 220px;
+    left: 35px;
+    background: black;
+    border: 1px solid red;
+    transform: rotate(-10deg);
+  }
+
+.head{
+margin: auto;
+width: 450px;
+height: 530px;
+background: #010101;
+border-radius:50%;
+position:absolute;
+top: 125px;
+display:flex;
+opacity: 1;
+overflow: hidden;
+align-items: center;
+border: 1px solid red;
+}
+
+.eye-left-shadow{
+  width: 160px;
+  height: 160px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50px;
+  top: 220px;
+  overflow: hidden;
+}
+
+.eye-left{
+    content:'';
+    width:160px;
+    height: 160px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    left:-35px;
+    top:128px;
+}
+
+.left-iris{
+    width:70px;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top:357px;
+    transform: rotate(15deg);
+    box-shadow: 0 0 15px 15px rgba(0, 255, 255, 1);
+}
+.eye-right-shadow{
+  width: 160px;
+  height: 160px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  top: 220px;
+  overflow: hidden;
+}
+.eye-right{
+  content:'';
+  width:160px;
+  height: 160px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  right:-35px;
+  top:128px;
+  box-shadow: 0 10px 10px rgba(0, 255, 255, 1);
+}
+.right-iris{
+  width:70px;
+  height: 15px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  right:80px;
+  top:357px;
+  transform: rotate(165deg);
+  box-shadow: 0 0 15px 15px rgba(0, 255, 255, 1);
+}
+.shoulders{
+  margin:auto;
+  width:230px;
+  height:70px;
+  background: black;
+  border-top-left-radius:70%;
+  border-top-right-radius:70%;
+  position: absolute;
+  display:flex;
+  bottom: 0;
+  opacity: 1;
+  overflow: hidden;
+  }
